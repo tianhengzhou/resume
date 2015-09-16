@@ -1,8 +1,4 @@
 /*******************************************
-3ColorResume
-Author: office@kamsolutions.pl
-*******************************************/
-/*******************************************
 FONTS
 *******************************************/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
@@ -76,7 +72,6 @@ PHOTO (AVATAR)
 #text-header:after{
     width: 100%;
     height: 3px;
-    background: url(../img/line.png);
     margin-top: 15px;
     content: '';
     display: block;
@@ -201,6 +196,22 @@ EXPERIENCES
     line-height: 1.5em;
 }
 /*******************************************
+Projects
+*******************************************/
+.project{
+    margin-bottom: 15px;
+}
+.project .title{
+    font-size: 1.4em;
+}
+.project .description{
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+.project .link{
+    text-decoration: none;
+}
+/*******************************************
 CONTACT
 *******************************************/
 .contact-item{
@@ -297,45 +308,6 @@ SKILLS
 }
 .legend-right{
     text-align: right;
-}
-/*******************************************
-LANGUAGES
-*******************************************/
-#language-skills .skill{
-    font-size: 1.3em;
-    margin: 10px 0;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #eee;
-}
-#language-skills .skill .icons{
-    width: 111px;
-    height: 14px;
-    background: url(../img/star-grey.png) no-repeat;
-}
-#language-skills .skill .icons-red{
-    background: url(../img/star-red.png) no-repeat;
-}
-/*******************************************
-HOBBIES
-*******************************************/
-.hobby{
-    color: #fff;
-    display: inline-block;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    padding: 5px 5px 5px 25px;
-    background: #A75265;
-    position: relative;
-    font-size: 1.2em;
-}
-.hobby:before{
-    content: "\f004";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    position: absolute;
-    top: 6px;
-    left: 7px;
 }
 /*******************************************
 MEDIA
